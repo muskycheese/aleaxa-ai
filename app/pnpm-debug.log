@@ -1,0 +1,586 @@
+---
+  0 debug pnpm:scope: 
+    selected: 1
+    workspacePrefix: null
+  1 info pnpm: 
+    message: "A store server is running. All store manipulations are delegated to it."
+    prefix: "/app"
+  2 debug pnpm:package-json: 
+    initial: 
+      name: "chatbot"
+      version: "1.0.0"
+      description: "A simple Node app built on Express, instantly up and running."
+      main: "server.js"
+      scripts: 
+        start: "node server.js"
+      dependencies: 
+        discord.js: "https://github.comdiscordjs/discord.js"
+        smartestchatbot: "^1.0.5"
+      engines: 
+        node: "12.x"
+      repository: 
+        url: "https://glitch.com/edit/#!/hello-express"
+      license: "MIT"
+      keywords: 
+        - "node"
+        - "glitch"
+        - "express"
+      readme: "# Updated 2nd April, 2021 \n## Update Logs \n### • Bot Now Sends Response In Embeds \n### • Bot Language Forced to English can be changed to any language! Join Support Server for help\n**This chatbot was created by 0_0#6666** <br>\n_To set up your bot please head to .env and make a variable named ``TOKEN`` and add your token there!_ <br>\n**This bot is fully customisable join https://discord.gg/HEpHMPsUvC for support and other questions**\n\nYoutube Channel:         **https://www.youtube.com/channel/UCF9E-xef9jL9QgziZRDHKKQ/**\n\n\n**NOTE\n`` THIS BOT DIES IF YOU DON'T USE IT EVERY 5 MINUTES CAN BE EASILY RE-HOSTED BY REGENERATING THE TOKEN AND REPPLACING IT \nIF YOU WANT A SCRIPT THAT PREVENTS THIS JOIN THE SERVER ABOVE AND DM 0_0#6666 THIS MIGHT GET YOUR PROJECT SUSPENDED BUT YOU CAN ALWAYS\nMAKE A NEW ONE USING MY TUTORIAL :D``**"
+      readmeFilename: "README.md"
+      gitHead: "921be81b9b85f3051d39babf4e1d96e400c4fb14"
+      _id: "chatbot@1.0.0"
+    prefix: "/app"
+  3 debug pnpm:stage: 
+    prefix: "/app"
+    stage: "resolution_started"
+  4 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/smartestchatbot/1.0.5"
+    requester: "/app"
+    status: "resolved"
+  5 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/smartestchatbot/1.0.5"
+    requester: "/app"
+    status: "found_in_store"
+  6 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@iamtraction/google-translate/1.1.2"
+    requester: "/app"
+    status: "resolved"
+  7 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/md5/2.3.0"
+    requester: "/app"
+    status: "resolved"
+  8 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/node-fetch/2.6.1"
+    requester: "/app"
+    status: "resolved"
+  9 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/superagent/6.1.0"
+    requester: "/app"
+    status: "resolved"
+  10 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@iamtraction/google-translate/1.1.2"
+    requester: "/app"
+    status: "found_in_store"
+  11 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/md5/2.3.0"
+    requester: "/app"
+    status: "found_in_store"
+  12 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/node-fetch/2.6.1"
+    requester: "/app"
+    status: "found_in_store"
+  13 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/superagent/6.1.0"
+    requester: "/app"
+    status: "found_in_store"
+  14 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/got/11.8.2"
+    requester: "/app"
+    status: "resolved"
+  15 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/charenc/0.0.2"
+    requester: "/app"
+    status: "resolved"
+  16 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/crypt/0.0.2"
+    requester: "/app"
+    status: "resolved"
+  17 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/is-buffer/1.1.6"
+    requester: "/app"
+    status: "resolved"
+  18 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/component-emitter/1.3.0"
+    requester: "/app"
+    status: "resolved"
+  19 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/cookiejar/2.1.2"
+    requester: "/app"
+    status: "resolved"
+  20 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/debug/4.3.1"
+    requester: "/app"
+    status: "resolved"
+  21 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/fast-safe-stringify/2.0.7"
+    requester: "/app"
+    status: "resolved"
+  22 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/form-data/3.0.1"
+    requester: "/app"
+    status: "resolved"
+  23 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/formidable/1.2.2"
+    requester: "/app"
+    status: "resolved"
+  24 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/methods/1.1.2"
+    requester: "/app"
+    status: "resolved"
+  25 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime/2.5.2"
+    requester: "/app"
+    status: "resolved"
+  26 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/qs/6.10.1"
+    requester: "/app"
+    status: "resolved"
+  27 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/readable-stream/3.6.0"
+    requester: "/app"
+    status: "resolved"
+  28 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/semver/7.3.5"
+    requester: "/app"
+    status: "resolved"
+  29 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/got/11.8.2"
+    requester: "/app"
+    status: "found_in_store"
+  30 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@sindresorhus/is/4.0.0"
+    requester: "/app"
+    status: "resolved"
+  31 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@szmarczak/http-timer/4.0.5"
+    requester: "/app"
+    status: "resolved"
+  32 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@types/cacheable-request/6.0.1"
+    requester: "/app"
+    status: "resolved"
+  33 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@types/responselike/1.0.0"
+    requester: "/app"
+    status: "resolved"
+  34 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/cacheable-lookup/5.0.4"
+    requester: "/app"
+    status: "resolved"
+  35 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/cacheable-request/7.0.1"
+    requester: "/app"
+    status: "resolved"
+  36 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/decompress-response/6.0.0"
+    requester: "/app"
+    status: "resolved"
+  37 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/http2-wrapper/1.0.3"
+    requester: "/app"
+    status: "resolved"
+  38 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/lowercase-keys/2.0.0"
+    requester: "/app"
+    status: "resolved"
+  39 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/p-cancelable/2.1.0"
+    requester: "/app"
+    status: "resolved"
+  40 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/responselike/2.0.0"
+    requester: "/app"
+    status: "resolved"
+  41 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/charenc/0.0.2"
+    requester: "/app"
+    status: "found_in_store"
+  42 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/crypt/0.0.2"
+    requester: "/app"
+    status: "found_in_store"
+  43 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/is-buffer/1.1.6"
+    requester: "/app"
+    status: "found_in_store"
+  44 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/component-emitter/1.3.0"
+    requester: "/app"
+    status: "found_in_store"
+  45 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/cookiejar/2.1.2"
+    requester: "/app"
+    status: "found_in_store"
+  46 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/debug/4.3.1"
+    requester: "/app"
+    status: "found_in_store"
+  47 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ms/2.1.2"
+    requester: "/app"
+    status: "resolved"
+  48 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/fast-safe-stringify/2.0.7"
+    requester: "/app"
+    status: "found_in_store"
+  49 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/form-data/3.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  50 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/asynckit/0.4.0"
+    requester: "/app"
+    status: "resolved"
+  51 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/combined-stream/1.0.8"
+    requester: "/app"
+    status: "resolved"
+  52 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/formidable/1.2.2"
+    requester: "/app"
+    status: "found_in_store"
+  53 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/methods/1.1.2"
+    requester: "/app"
+    status: "found_in_store"
+  54 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime/2.5.2"
+    requester: "/app"
+    status: "found_in_store"
+  55 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/qs/6.10.1"
+    requester: "/app"
+    status: "found_in_store"
+  56 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime-types/2.1.30"
+    requester: "/app"
+    status: "resolved"
+  57 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/side-channel/1.0.4"
+    requester: "/app"
+    status: "resolved"
+  58 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/readable-stream/3.6.0"
+    requester: "/app"
+    status: "found_in_store"
+  59 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/semver/7.3.5"
+    requester: "/app"
+    status: "found_in_store"
+  60 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/inherits/2.0.4"
+    requester: "/app"
+    status: "resolved"
+  61 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/string_decoder/1.3.0"
+    requester: "/app"
+    status: "resolved"
+  62 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/util-deprecate/1.0.2"
+    requester: "/app"
+    status: "resolved"
+  63 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/lru-cache/6.0.0"
+    requester: "/app"
+    status: "resolved"
+  64 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@sindresorhus/is/4.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  65 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@szmarczak/http-timer/4.0.5"
+    requester: "/app"
+    status: "found_in_store"
+  66 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/defer-to-connect/2.0.1"
+    requester: "/app"
+    status: "resolved"
+  67 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@types/cacheable-request/6.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  68 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@types/http-cache-semantics/4.0.0"
+    requester: "/app"
+    status: "resolved"
+  69 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@types/keyv/3.1.1"
+    requester: "/app"
+    status: "resolved"
+  70 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@types/node/14.14.41"
+    requester: "/app"
+    status: "resolved"
+  71 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@types/responselike/1.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  72 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/cacheable-lookup/5.0.4"
+    requester: "/app"
+    status: "found_in_store"
+  73 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/cacheable-request/7.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  74 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/clone-response/1.0.2"
+    requester: "/app"
+    status: "resolved"
+  75 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/get-stream/5.2.0"
+    requester: "/app"
+    status: "resolved"
+  76 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/http-cache-semantics/4.1.0"
+    requester: "/app"
+    status: "resolved"
+  77 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/keyv/4.0.3"
+    requester: "/app"
+    status: "resolved"
+  78 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/normalize-url/4.5.0"
+    requester: "/app"
+    status: "resolved"
+  79 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/decompress-response/6.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  80 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mimic-response/3.1.0"
+    requester: "/app"
+    status: "resolved"
+  81 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/http2-wrapper/1.0.3"
+    requester: "/app"
+    status: "found_in_store"
+  82 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/quick-lru/5.1.1"
+    requester: "/app"
+    status: "resolved"
+  83 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/resolve-alpn/1.1.2"
+    requester: "/app"
+    status: "resolved"
+  84 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/lowercase-keys/2.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  85 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/p-cancelable/2.1.0"
+    requester: "/app"
+    status: "found_in_store"
+  86 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/responselike/2.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  87 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ms/2.1.2"
+    requester: "/app"
+    status: "found_in_store"
+  88 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/asynckit/0.4.0"
+    requester: "/app"
+    status: "found_in_store"
+  89 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/combined-stream/1.0.8"
+    requester: "/app"
+    status: "found_in_store"
+  90 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/delayed-stream/1.0.0"
+    requester: "/app"
+    status: "resolved"
+  91 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime-types/2.1.30"
+    requester: "/app"
+    status: "found_in_store"
+  92 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime-db/1.47.0"
+    requester: "/app"
+    status: "resolved"
+  93 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/side-channel/1.0.4"
+    requester: "/app"
+    status: "found_in_store"
+  94 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/call-bind/1.0.2"
+    requester: "/app"
+    status: "resolved"
+  95 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/get-intrinsic/1.1.1"
+    requester: "/app"
+    status: "resolved"
+  96 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/object-inspect/1.9.0"
+    requester: "/app"
+    status: "resolved"
+  97 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/inherits/2.0.4"
+    requester: "/app"
+    status: "found_in_store"
+  98 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/string_decoder/1.3.0"
+    requester: "/app"
+    status: "found_in_store"
+  99 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/safe-buffer/5.2.1"
+    requester: "/app"
+    status: "resolved"
+  100 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/util-deprecate/1.0.2"
+    requester: "/app"
+    status: "found_in_store"
+  101 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/lru-cache/6.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  102 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/yallist/4.0.0"
+    requester: "/app"
+    status: "resolved"
+  103 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/defer-to-connect/2.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  104 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@types/http-cache-semantics/4.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  105 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@types/keyv/3.1.1"
+    requester: "/app"
+    status: "found_in_store"
+  106 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@types/node/14.14.41"
+    requester: "/app"
+    status: "found_in_store"
+  107 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/clone-response/1.0.2"
+    requester: "/app"
+    status: "found_in_store"
+  108 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mimic-response/1.0.1"
+    requester: "/app"
+    status: "resolved"
+  109 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/get-stream/5.2.0"
+    requester: "/app"
+    status: "found_in_store"
+  110 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/pump/3.0.0"
+    requester: "/app"
+    status: "resolved"
+  111 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/http-cache-semantics/4.1.0"
+    requester: "/app"
+    status: "found_in_store"
+  112 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/keyv/4.0.3"
+    requester: "/app"
+    status: "found_in_store"
+  113 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/json-buffer/3.0.1"
+    requester: "/app"
+    status: "resolved"
+  114 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/normalize-url/4.5.0"
+    requester: "/app"
+    status: "found_in_store"
+  115 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mimic-response/3.1.0"
+    requester: "/app"
+    status: "found_in_store"
+  116 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/quick-lru/5.1.1"
+    requester: "/app"
+    status: "found_in_store"
+  117 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/resolve-alpn/1.1.2"
+    requester: "/app"
+    status: "found_in_store"
+  118 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/delayed-stream/1.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  119 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime-db/1.47.0"
+    requester: "/app"
+    status: "found_in_store"
+  120 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/call-bind/1.0.2"
+    requester: "/app"
+    status: "found_in_store"
+  121 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/function-bind/1.1.1"
+    requester: "/app"
+    status: "resolved"
+  122 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/get-intrinsic/1.1.1"
+    requester: "/app"
+    status: "found_in_store"
+  123 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/has/1.0.3"
+    requester: "/app"
+    status: "resolved"
+  124 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/has-symbols/1.0.2"
+    requester: "/app"
+    status: "resolved"
+  125 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/object-inspect/1.9.0"
+    requester: "/app"
+    status: "found_in_store"
+  126 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/safe-buffer/5.2.1"
+    requester: "/app"
+    status: "found_in_store"
+  127 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/yallist/4.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  128 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mimic-response/1.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  129 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/pump/3.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  130 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/json-buffer/3.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  131 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/function-bind/1.1.1"
+    requester: "/app"
+    status: "found_in_store"
+  132 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/has/1.0.3"
+    requester: "/app"
+    status: "found_in_store"
+  133 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/has-symbols/1.0.2"
+    requester: "/app"
+    status: "found_in_store"
+  134 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/end-of-stream/1.4.4"
+    requester: "/app"
+    status: "resolved"
+  135 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/once/1.4.0"
+    requester: "/app"
+    status: "resolved"
+  136 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/end-of-stream/1.4.4"
+    requester: "/app"
+    status: "found_in_store"
+  137 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/once/1.4.0"
+    requester: "/app"
+    status: "found_in_store"
+  138 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/wrappy/1.0.2"
+    requester: "/app"
+    status: "resolved"
+  139 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/wrappy/1.0.2"
+    requester: "/app"
+    status: "found_in_store"
+  140 error pnpm: 
+    message: "request to https://github.comdiscordjs/discord.js failed, reason: getaddrinfo ENOTFOUND github.comdiscordjs github.comdiscordjs:443"
+    type: "system"
+    errno: "ENOTFOUND"
+    code: "ENOTFOUND"
+    attempts: 3
+    resource: "https://github.comdiscordjs/discord.js"
